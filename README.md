@@ -12,10 +12,9 @@ face项目编译
 3.make
 
 onnx转化：
-1.下载onnx模型
-2.onnx.py文件
-3.复制onnx模型到ncnn/build/tools/onnx文件夹中 运行 ./onnx2ncnn IR_50.onnx 生成ncnn模型文件。然后重命名
-4.复制重命名的ncnn文件至face_recognition/models文件夹 如文件目录所示
+1.下载人脸识别模型，https://pan.baidu.com/share/init?surl=-9sFB3H1mL8bt2jH7EagtA，PW: b197：
+2.运行onnx.py文件生成onn模型
+3.复制onnx模型到ncnn/build/tools/onnx文件夹中 运行 ./onnx2ncnn IR_50.onnx 生成ncnn模型文件
 
 算法运行：
 1.复制lwf数据集 到face_recogntion/gallery/face_image 注意复制后文件格式为face_image/名字/人脸.jpg
